@@ -1,0 +1,104 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "heading";
+  src: url("./assets/fonts/H.otf") format("opentype");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+:root {
+  /* Brand Colors */
+  --brand-primary: #143833;        /* Main brand color - headings, header */
+  --brand-light: #1e4d47;          /* Slightly lighter shade for hover/secondary elements */
+  --brand-lighter: #2a6359;        /* Lightest brand shade for subtle UI elements */
+
+  /* Secondary & Accent Colors */
+  --secondary-teal: #4ecdc4;       /* Secondary headings, subtle accents */
+  --light-green: #7ed321;          /* Tags, small highlights */
+  
+  /* CTA Colors */
+  --cta-primary: #257c77;          /* Primary CTA - pops against dark brand color */
+  --cta-primary-hover: #1e625f;    /* Slightly darker for hover */
+  --cta-secondary: transparent;    /* Outline / secondary CTA style */
+  --cta-secondary-border: #4ecdc4; /* Border color for outline CTA */
+  --cta-secondary-hover: rgba(78, 205, 196, 0.1); /* Subtle hover background */
+  --cta-accent: #7ed321;           /* Bright green for special actions */
+  --cta-accent-hover: #6cb91c;     /* Slightly darker on hover */
+
+  /* Text Colors */
+  --text-primary: #143833;         /* Main headings */
+  --text-secondary: #2a6359 ;       /* Secondary headings / subtle highlights */
+  --text-description: #143833;     /* Body descriptions / supporting info */
+  --text-label: #143833;           /* Small labels, tags */
+  --text-white: #ffffff;           
+  --text-muted: #666666;           /* Light text for placeholders or secondary info */
+
+  /* Background Colors */
+  --bg-primary: #ffffff;
+  --bg-header-transparent: rgba(255, 255, 255, 0.95);
+  --bg-header-solid: #143833;
+}
+
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+@font-face {
+  font-family: "m";
+  src: url("./assets/fonts/m.ttf") format("truetype");
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+.hero-bg {
+  width: 100%;
+  height: 100vh;
+  background-color: #e9fefa; /* Mint base */
+  background-image: repeating-linear-gradient(
+    100deg,
+    /* angle of streak */ #00aa95,
+    /* teal start */ #00aa95 6px,
+    /* line thickness */ #ff3b81 6px,
+    /* pink accent */ #ff3b81 12px,
+    /* thickness */ transparent 12px,
+    /* gap */ transparent 32px /* spacing */
+  );
+  background-size: cover;
+}
+
+@font-face {
+  font-family: "LogoFont";
+  src: url("./assets/logo.otf") format("opentype");
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "h";
+  src: url("./assets/fonts/H.otf") format("opentype");
+  font-weight: 400; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "b";
+  src: url("./assets/fonts/b.ttf") format("truetype");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+/* body {
+  font-family: "r", sans-serif;
+} */
+
+

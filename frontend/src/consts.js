@@ -1,0 +1,9 @@
+export const brandColor = '#DCEEFE'
+export const pageColor = '#fff'
+export const mTxtColor = '#000'
+export const sTxtColor = "#545565"
+export const tTxtColor = '#102b26'
+export const pBtnColor = "#000"
+export const sBtnColor = '#'
+export const brandName = "VERRE"
+export const Server = "http://localhost:7000"
